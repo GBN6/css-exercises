@@ -23,18 +23,20 @@ body {
   display: flex;
   padding: 16px;
   gap: 16px;
+  border: solid 2px black;
 }
-
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   font-size: 18px;
   font-weight: bold;
-  justify-content: space-between;
-  margin-bottom: 8px;
-
+  margin-bottom: 10px;
+  border: solid 2px black;
 }
-
+.container {
+  border: solid 2px black;
+}
 .text {
   margin-bottom: 16px;
 }
